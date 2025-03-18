@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #d3ecff, #ffffff);
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff, #e3f2fd);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.data-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.data-value {
+    font-size: 24px;
+    font-weight: bold;
+}
